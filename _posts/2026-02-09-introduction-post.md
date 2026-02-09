@@ -1,5 +1,7 @@
 ---
 layout: post
+author:
+- Logan O'Roark
 ---
 This is my first post. Topics for discusion will include:
 - What parts were new to me in Lab 2
