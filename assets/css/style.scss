@@ -3,5 +3,42 @@
 ---
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+"minima/skins/{{ site.minima.skin | default: 'classic' }}",
+"minima/initialize";
+
+  header.site-header {
+    background-color: dodgerblue;
+  }
+
+  .site-nav .nav-item {
+    color: white;
+  }
+
+  footer.site-footer {
+    background-color: dodgerblue;
+    .contact-list .p-name {
+      color: white;
+    }
+    .u-email {
+      color: white;
+    }
+    p{
+      color: white;
+    }
+  }
+  
+  
+
+.site-title {
+  font-size: 50px;
+  font-style: bold;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  padding-top: 20px;
+}
+
+.post-list .post-meta {
+  color: black;
+}
