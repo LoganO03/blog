@@ -1,15 +1,16 @@
 # Site-wide settings
 # ------------------
 #
-# title: Your awesome title
+title: Logan O'Roark's Blog!
 #
-# author:
-#   name: GitHub User
-#   email: your-email@domain.com
+author:
+   name: LoganO03
+   email: j.logan.oroark@gmail.com
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
-# description: >
+description: >
+"This blog is setup to keep track of my progress in the CSCI 340 Database and Web Syestem class at Hendrix College. I will be creating posts about the projects I am working on for this class, as well as the progress I make in working with the many principles of the course."
 #   Write an awesome description for your new site here. You can edit this line
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
